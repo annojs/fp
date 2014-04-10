@@ -12,7 +12,7 @@ function execute() {
         var test = tests[name];
         var module = require('../')[name];
 
-        fuzz._amount = 100;
+        fuzz._amount = tests[name].amount || 100;
         fuzz(module, test);
     });
 }
