@@ -4,16 +4,16 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.4.1",
   "dependencies": {
-    "annois": "0.3.0",
-    "annotate": "0.9.1",
-    "annomath": "0.4.1",
-    "annozip": "0.2.4"
+    "annois": "^0.3.1",
+    "annotate": "^0.9.1",
+    "annomath": "^0.4.1",
+    "annozip": "^0.2.4"
   },
   "devDependencies": {
-    "require-dir": "0.1.0",
-    "annogenerate": "0.8.0",
-    "annofuzz": "0.4.6",
-    "annoops": "0.2.0"
+    "require-dir": "^0.1.0",
+    "annogenerate": "^0.8.1",
+    "annofuzz": "^0.4.6",
+    "annoops": "^0.2.0"
   },
   "scripts": {
     "test": "node ./tests"
